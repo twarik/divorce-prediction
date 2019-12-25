@@ -4,7 +4,7 @@
 In this project, I analyze data on divorce issued through the [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set) platform  on 2019-07-24.  I develop a predictive scorecard that can be used to identify a person at a risk of divorce. 
 In this dataset, Participants completed the Personal Information Form and Divorce Predictors Scale.
 
-Using the data, I analyze factors that correlate with each other, and also perfom some exploratory visualization and analysis. Using LASSO regularization, I identifie a set of important predictors that do the best job in predicting in whether a person is likely to divorce. I then create a logistic regression model that predicts that a person that will divorce.  The model could be utilized by married couples to determine which of their actions may be a potential cause for a divorce.  
+Using the data, I analyze factors that correlate with each other, and also perfom some exploratory visualization and analysis. Feature Selection is done Using Random forest, to I identify a set of important predictors that do the best job in determining whether a person is likely to divorce. I then create a logistic regression model that predicts that a person that will divorce.  The model could be utilized by married couples to determine which of their actions may be a potential cause for a divorce.  
 You can find the exploratory data analysis and the model code in the `divorce.ipynb` notebook.  The data used is stored in the `data` folder.
 
 **Attribute Information:**
